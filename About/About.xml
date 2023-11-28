@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Vanilla Recycling Expanded</name>
+  <author>OskarPotocki, Sarg Bjornson</author>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+  <packageId>VanillaExpanded.Recycling</packageId>
+  <description>
+    Vanilla Recycling Expanded is our spin on recycling in RimWorld. No longer you will be left with hundreds of wastepacks that you will try to send away into distant parts of the world to forget about them. No longer you will have to try and cheese the game to get rid of pollution. Vanilla Recycling Expanded actually gives wastepacks a purpose, and will let you convert them into a variety of useful new resources!
+
+Players will be able to create improved pumps to drain even more pollution, as well as construct special recycling stations that will turn wastepacks into precious resources whilst also generating a whole new type of wastepack that’s significantly more volatile. Players may also turn standard wastepacks into a different type of wastepacks that can be stored outside.
+
+New high tech solutions will also be provided to tackle the wastepack problems, whilst industrial toxifier generators will provide the players with much more energy at the cost of generating much more waste.</description>
+</ModMetaData>
