@@ -11,8 +11,8 @@
       <prerequisites>
          <li>ToxifierGenerator</li>
       </prerequisites>
-      <researchViewX>1.00</researchViewX>
-      <researchViewY>7.25</researchViewY>
+		<researchViewY>7</researchViewY>
+		<researchViewX>5</researchViewX>
    </ResearchProjectDef>
    
    <ResearchProjectDef>
@@ -20,13 +20,13 @@
       <label>complex recycling</label>
       <description>Learn to recycle isotopacks and alloypacks into new resources and build garbage compactors to craft trashbricks.</description>
       <baseCost>3000</baseCost>
-      <tab>Spacer</tab>
-      <techLevel>Ultra</techLevel>
+      <tab>VanillaExpanded</tab>
+      <techLevel>Spacer</techLevel>
       <prerequisites>
          <li>VRecyclingE_BasicRecycling</li>
       </prerequisites>
-      <researchViewX>2.00</researchViewX>
-      <researchViewY>7.25</researchViewY>
+		<researchViewY>7</researchViewY>
+		<researchViewX>6</researchViewX>
       <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
    </ResearchProjectDef>
    
