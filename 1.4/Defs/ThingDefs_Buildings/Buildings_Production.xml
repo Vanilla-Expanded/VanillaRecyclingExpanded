@@ -3,11 +3,11 @@
 
   <ThingDef ParentName="BenchBase">
     <defName>VRecyclingE_RecyclingWorkbench</defName>
-    <label>machining table</label>
+    <label>recycling bench</label>
     <description>tbd</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/TableMachining</texPath>
+      <texPath>Things/Building/TableRecyclingHand</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <damageData>
