@@ -175,7 +175,7 @@
       <li>ItemsMisc</li>
     </thingCategories>
     <comps>
-      <li Class="">
+      <li Class="CompProperties_GasOnDamage">
         <type>ToxGas</type>
         <damageFactor>12</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
@@ -221,7 +221,7 @@
       <li>ItemsMisc</li>
     </thingCategories>
     <comps>
-      <li Class="">
+      <li Class="CompProperties_GasOnDamage">
         <type>ToxGas</type>
         <damageFactor>6</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
