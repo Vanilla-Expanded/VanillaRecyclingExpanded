@@ -12,4 +12,22 @@
 Players will be able to create improved pumps to drain even more pollution, as well as construct special recycling stations that will turn wastepacks into precious resources whilst also generating a whole new type of wastepack that’s significantly more volatile. Players may also turn standard wastepacks into a different type of wastepacks that can be stored outside.
 
 New high tech solutions will also be provided to tackle the wastepack problems, whilst industrial toxifier generators will provide the players with much more energy at the cost of generating much more waste.</description>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+    </li>
+	<li>
+		<packageId>Ludeon.RimWorld.Biotech</packageId>
+		<displayName>Biotech</displayName>
+	</li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+	<li>Ludeon.RimWorld.Ideology</li>
+	<li>Ludeon.RimWorld.Biotech</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
 </ModMetaData>
