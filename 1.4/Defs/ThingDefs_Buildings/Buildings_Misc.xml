@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VRecyclingE_LargePollutionPump</defName>
+    <label>large pollution pump</label>
+    <description>A large, groundwater-filtering pump which slowly cleans large swathes of polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away.</description>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/LargePollutionPump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.2</fillPercent>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <buildingTags>
+        <li>Biotech</li>
+      </buildingTags>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <designationCategory>Biotech</designationCategory>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>45</Mass>
+	  <MarketValue>500</MarketValue>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(3,3)</size>
+    <costList>
+      <Steel>180</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>400</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_PollutionPump">
+        <radius>30.9</radius>
+        <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
+        <pumpsPerWastepack>6</pumpsPerWastepack>
+        <intervalTicks>15000</intervalTicks>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_PollutionPump</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>VRecyclingE_PollutionFastPump</defName>
+    <label>pollution fastpump</label>
+    <description>A rapidly-working, groundwater-filtering pump which cleans polluted terrain. The extracted pollution is formed into toxic wastepacks which must be hauled away. It requires a large amount of electricity to work, but it works extremely quickly.</description>
+    <tickerType>Normal</tickerType>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>Things/Building/PollutionFastPump</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <uiIconScale>0.85</uiIconScale>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <fillPercent>0.2</fillPercent>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <buildingTags>
+        <li>Biotech</li>
+      </buildingTags>
+	  <artificialForMeditationPurposes>false</artificialForMeditationPurposes>
+    </building>
+    <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+    <designationCategory>Biotech</designationCategory>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>5500</WorkToBuild>
+      <Mass>15</Mass>
+	  <MarketValue>220</MarketValue>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>75</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+	  <Gold>1</Gold>
+    </costList>
+    <researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>800</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_PollutionPump">
+        <radius>10.9</radius>
+        <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
+        <pumpsPerWastepack>6</pumpsPerWastepack>
+        <intervalTicks>5000</intervalTicks>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_PollutionPump</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+
+</Defs>
