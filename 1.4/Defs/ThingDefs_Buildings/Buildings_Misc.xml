@@ -125,5 +125,84 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
   </ThingDef>
+  
+  <ThingDef ParentName="FurnitureBase">
+    <defName>VRecyclingE_WasteCrate</defName>
+    <label>waste crate</label>
+    <description>A hermetically sealed container that prevents toxic waste stored inside from dissolving and leaking into the environment. Can only hold a limited amount of waste. Does nothing to prevent the waste from burning.</description>
+    <graphicData>
+      <texPath>Things/Building/WasteCrate/WasteCrate_Bottom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+	<uiIconPath>Things/Building/WasteCrate/WasteCrate_MenuIcon</uiIconPath>
+    <costList>
+      <Steel>80</Steel>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints> 
+      <Mass>5</Mass>
+      <WorkToBuild>5500</WorkToBuild>
+      <Flammability>0.5</Flammability>
+	  <MarketValue>190</MarketValue>
+      <Beauty>0</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <thingClass>Building_Storage</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+	<designationCategory>Biotech</designationCategory>
+    <castEdgeShadows>true</castEdgeShadows>
+    <pathCost>42</pathCost>
+	<rotatable>false</rotatable>
+	<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <maxItemsInCell>3</maxItemsInCell>
+      <storageGroupTag>Shelf</storageGroupTag>
+      <blueprintClass>Blueprint_Storage</blueprintClass>
+      <fixedStorageSettings>
+        <filter>
+          <disallowNotEverStorable>true</disallowNotEverStorable>
+          <thingDefs>
+            <li>Wastepack</li>
+			<li>VRecyclingE_ReclaimedBiopack</li>
+			<li>VRecyclingE_ReactiveChempack</li>
+			<li>VRecyclingE_StabilizedAlloypack</li>
+			<li>VRecyclingE_VolatileToxpack</li>
+			<li>VRecyclingE_RadioactiveIsotopack</li>
+			<li>VRecyclingE_Trash</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Preferred</priority>
+        <filter>
+          <thingDefs>
+            <li>Wastepack</li>
+			<li>VRecyclingE_ReclaimedBiopack</li>
+			<li>VRecyclingE_ReactiveChempack</li>
+			<li>VRecyclingE_StabilizedAlloypack</li>
+			<li>VRecyclingE_VolatileToxpack</li>
+			<li>VRecyclingE_RadioactiveIsotopack</li>
+			<li>VRecyclingE_Trash</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+      <paintable>false</paintable>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <staticSunShadowHeight>0.5</staticSunShadowHeight>
+    <surfaceType>Item</surfaceType>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>VRecyclingE_BasicRecycling</li>
+    </researchPrerequisites>
+  </ThingDef>
 
 </Defs>
