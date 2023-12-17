@@ -42,9 +42,13 @@
     <interactionCellOffset>(1,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-    <!-- <recipes>
-      <li>ButcherCorpseMechanoid</li>
-    </recipes> -->
+    <recipes>
+      <li>VRecyclingE_Recycle_WastepackIntoChempack</li>
+	  <li>VRecyclingE_Recycle_ChempackIntoChemfuel</li>
+	  <li>VRecyclingE_Recycle_WastepackIntoToxpack</li>
+	  <li>VRecyclingE_Recycle_BreakDownToxpack</li>
+	  <li>VRecyclingE_Recycle_IsotopackIntoUranium</li>
+    </recipes>
 	<minifiedDef>MinifiedThing</minifiedDef>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -110,9 +114,13 @@
     <interactionCellOffset>(1,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-    <!-- <recipes>
-      <li>ButcherCorpseMechanoid</li>
-    </recipes> -->
+    <recipes>
+      <li>VRecyclingE_Recycle_WastepackIntoChempack</li>
+	  <li>VRecyclingE_Recycle_ChempackIntoChemfuel</li>
+	  <li>VRecyclingE_Recycle_WastepackIntoToxpack</li>
+	  <li>VRecyclingE_Recycle_BreakDownToxpack</li>
+	  <li>VRecyclingE_Recycle_IsotopackIntoUranium</li>
+    </recipes>
 	<minifiedDef>MinifiedThing</minifiedDef>
     <inspectorTabs>
       <li>ITab_Bills</li>
