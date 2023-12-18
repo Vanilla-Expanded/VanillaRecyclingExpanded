@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<PipeSystem.ProcessDef>
+		<defName>VRecyclingE_TrashToBricks</defName>
+		<label>Trash to trashbricks</label>
+		<description>Turns 10 trash into 25 trashbricks.</description>
+		<ingredients>
+			<li>
+				<thing>VRecyclingE_Trash</thing>
+				<countNeeded>10</countNeeded>
+			</li>
+		</ingredients>
+		<ticks>60000</ticks>
+		<thing>VRecyclingE_TrashBrick</thing>
+		<count>25</count>
+	</PipeSystem.ProcessDef>
+	
+</Defs>
