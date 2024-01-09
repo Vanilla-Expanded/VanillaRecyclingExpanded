@@ -244,7 +244,8 @@
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
 		<description>tbd</description>
-		<!-- <thingClass>Building_WorkTable</thingClass> -->
+		<tickerType>Normal</tickerType>
+		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/AlloypackSplitter/AlloypackSplitter</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -274,6 +275,7 @@
 		<size>(3,2)</size>
 		<designationCategory>Production</designationCategory>
 		<fillPercent>1</fillPercent>
+		
 		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -288,6 +290,14 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
+			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
+				<notWorkingKey>VRecyclingE_NotWorking</notWorkingKey>
+				<processes>
+					<li>VRecyclingE_SplitStabilizedAlloypack</li>
+				</processes>
+				<progressBarOffset>(0,0,-1)</progressBarOffset>
+				
+			</li>
 		</comps>
 		<building>
 			<buildingTags>
@@ -295,6 +305,9 @@
 			</buildingTags>
 			<paintable>true</paintable>
 		</building>
+		<inspectorTabs>
+			<li>PipeSystem.ITab_Processor</li>
+		</inspectorTabs>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
