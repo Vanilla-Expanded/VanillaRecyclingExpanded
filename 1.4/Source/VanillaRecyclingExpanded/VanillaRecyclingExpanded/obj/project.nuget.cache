@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TniQAc9stBPHE6QBDFpFwRiNub2eIgMK46Dd/rOC7vWn7aWyjeZjYxqwA6ec3PDJwwCiYIoadTeW5MO1FF0XRA==",
+  "dgSpecHash": "4Sy7Nr661hKIADrBP4vWjZF3n3Y8Sq/gGFHLVlM88yxwYjAPMfGpEQaQWRUDGe+c5eU+xDaeEsCiBGLVNvSBLQ==",
   "success": true,
   "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\VanillaRecyclingExpanded\\1.4\\Source\\VanillaRecyclingExpanded\\VanillaRecyclingExpanded\\VanillaRecyclingExpanded.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
+    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.2.2\\lib.harmony.2.2.2.nupkg.sha512"
   ],
   "logs": []
 }

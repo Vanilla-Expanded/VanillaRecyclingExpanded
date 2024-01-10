@@ -30,19 +30,18 @@
         <damageFactor>6</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
       </li>
-      <!--  <li Class="CompProperties_Dissolution">
+       <li Class="VanillaRecyclingExpanded.CompProperties_BiopackDissolution">
         <dissolutionAfterDays>8</dissolutionAfterDays>
         <dissolutinFactorIndoors>0.5</dissolutinFactorIndoors>
         <dissolutionFactorRain>2</dissolutionFactorRain>
       </li>
-      <li Class="CompProperties_DissolutionEffectPollution">
-        <cellsToPollutePerDissolution>6</cellsToPollutePerDissolution>
-        <tilePollutionPerDissolution>0.0005</tilePollutionPerDissolution>
-        <waterTilePollutionFactor>8</waterTilePollutionFactor>
+	   <li Class="VanillaRecyclingExpanded.CompProperties_DissolutionEffectChangeTerrain">
+        
       </li>
-      <li>
+	   <li>
         <compClass>CompDissolutionEffect_Goodwill</compClass>
-      </li> -->
+      </li>
+
     </comps> 
     <tickerType>Normal</tickerType>
   </ThingDef>
@@ -134,19 +133,7 @@
         <damageFactor>6</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
       </li>
-      <!--  <li Class="CompProperties_Dissolution">
-        <dissolutionAfterDays>8</dissolutionAfterDays>
-        <dissolutinFactorIndoors>0.5</dissolutinFactorIndoors>
-        <dissolutionFactorRain>2</dissolutionFactorRain>
-      </li>
-      <li Class="CompProperties_DissolutionEffectPollution">
-        <cellsToPollutePerDissolution>6</cellsToPollutePerDissolution>
-        <tilePollutionPerDissolution>0.0005</tilePollutionPerDissolution>
-        <waterTilePollutionFactor>8</waterTilePollutionFactor>
-      </li>
-      <li>
-        <compClass>CompDissolutionEffect_Goodwill</compClass>
-      </li> -->
+    
     </comps>
     <tickerType>Normal</tickerType>
   </ThingDef>
