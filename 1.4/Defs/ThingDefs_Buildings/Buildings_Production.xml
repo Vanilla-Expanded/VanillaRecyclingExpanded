@@ -155,7 +155,7 @@
 		<defName>VRecyclingE_GarbageCompactor</defName>
 		<label>garbage compactor</label>
 		<description>tbd</description>
-		<thingClass>VanillaRecyclingExpanded.Building_Compactor</thingClass> 
+		<thingClass>VanillaRecyclingExpanded.Building_Compactor</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
@@ -220,7 +220,6 @@
 					<li>VRecyclingE_TrashToBricks</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
-				
 			</li>
 		</comps>
 		<building>
@@ -239,7 +238,6 @@
 			<li>VRecyclingE_ComplexRecycling</li>
 		</researchPrerequisites>
 	</ThingDef>
-	
 	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
@@ -276,11 +274,9 @@
 		<size>(3,2)</size>
 		<designationCategory>Production</designationCategory>
 		<fillPercent>1</fillPercent>
-		
 		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-	
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -297,7 +293,6 @@
 					<li>VRecyclingE_SplitStabilizedAlloypack</li>
 				</processes>
 				<progressBarOffset>(0,0,-1)</progressBarOffset>
-				
 			</li>
 		</comps>
 		<building>
@@ -305,6 +300,11 @@
 				<li>Production</li>
 			</buildingTags>
 			<paintable>true</paintable>
+			<wastepackAtomizerBottomGraphic>
+				<texPath>Things/Building/AlloypackSplitter/AlloypackSplitter_BottomLayer</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3,2)</drawSize>
+			</wastepackAtomizerBottomGraphic>
 		</building>
 		<inspectorTabs>
 			<li>PipeSystem.ITab_Processor</li>
