@@ -306,6 +306,7 @@
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\TerrainConversionsDef.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\ImpactSoundUtility_PlayImpactSound.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
