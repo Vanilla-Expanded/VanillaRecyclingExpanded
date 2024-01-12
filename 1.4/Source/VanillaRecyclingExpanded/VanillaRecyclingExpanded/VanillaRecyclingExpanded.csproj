@@ -293,6 +293,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building\Building_AlloySplitter.cs" />
     <Compile Include="Building\Building_Compactor.cs" />
     <Compile Include="Comps\CompBiopackDissolution.cs" />
     <Compile Include="Comps\CompDissolutionEffect_ChangeTerrain.cs" />

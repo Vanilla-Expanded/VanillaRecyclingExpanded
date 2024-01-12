@@ -60,7 +60,7 @@ namespace VanillaRecyclingExpanded
         {
             base.Tick();
             
-            if (comp?.Process?.IsRunning() == true && comp.Process.Progress>0)
+            if (comp?.Process?.IsRunning == true && comp.Process.Progress>0)
             {
                 tickCounter++;
                 if (this.IsHashIntervalTick(interval))
@@ -78,7 +78,7 @@ namespace VanillaRecyclingExpanded
             base.Draw();
             var vector = DrawPos;
             vector.y += 6;
-            if (comp?.Process?.IsRunning() == true && comp.Process.Progress > 0)
+            if (comp?.Process?.IsRunning == true && comp.Process.Progress > 0)
             {
                
                 float height = Mathf.Lerp(0, 0.5f, (float)tickCounter / 600);
