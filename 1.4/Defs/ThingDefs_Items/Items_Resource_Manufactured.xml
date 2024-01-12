@@ -208,7 +208,11 @@
       <li>ItemsMisc</li>
     </thingCategories>
     <comps>
-      <li Class="CompProperties_GasOnDamage">
+      <li Class="VanillaRecyclingExpanded.CompProperties_RadiationOnDamage">
+        <baseRadius>3</baseRadius>
+       
+      </li>
+	  <li Class="CompProperties_GasOnDamage">
         <type>ToxGas</type>
         <damageFactor>6</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
@@ -258,6 +262,9 @@
         <type>ToxGas</type>
         <damageFactor>3</damageFactor>
         <useStackCountAsFactor>true</useStackCountAsFactor>
+      </li>
+	  <li Class="VanillaRecyclingExpanded.CompProperties_ToxGasOnDestroyed">
+        
       </li>
     </comps>
     <tickerType>Normal</tickerType>
