@@ -14,7 +14,6 @@ namespace VanillaRecyclingExpanded
         private CompAdvancedResourceProcessor comp;
         public int tickCounter =0;
         public const int interval = 600;
-        public Graphic_Multi graphic = null;
         private Effecter operatingEffecter;
 
         public override void ExposeData()
@@ -31,28 +30,7 @@ namespace VanillaRecyclingExpanded
             comp = this.TryGetComp<CompAdvancedResourceProcessor>();
         }
 
-        public Graphic_Multi GetGraphic
-        {
-            get
-            {
-                if (graphic is null)
-                {
-                    LongEventHandler.ExecuteWhenFinished(delegate { GetGraphicLong(); });
 
-                }
-                return graphic;
-            }
-        }
-
-        public void GetGraphicLong()
-        {
-            try
-            {
- 
-                graphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi>("Things/Building/AlloypackSplitter/AlloypackSplitter_BottomLayer", ShaderDatabase.DefaultShader, DrawSize, DrawColor);
-            }
-            catch (Exception) { }
-        }
 
 
 
@@ -81,9 +59,15 @@ namespace VanillaRecyclingExpanded
         {
            
             base.Draw();
+
             Vector3 drawPos = DrawPos;
-            drawPos.y -=0.001f;
-            GetGraphic?.DrawFromDef(drawPos, this.Rotation, null); 
+            drawPos.y -= 0.08108108f;
+            def.building.wastepackAtomizerBottomGraphic.Graphic.Draw(drawPos, base.Rotation, this);
+            Vector3 drawPos2 = DrawPos;
+            drawPos2.y -= 3f / 148f;
+            def.building.wastepackAtomizerWindowGraphic.Graphic.Draw(drawPos2, base.Rotation, this);
+
+   
 
         }
 

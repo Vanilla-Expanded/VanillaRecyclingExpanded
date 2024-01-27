@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	
 	<PipeSystem.ProcessDef>
 		<defName>VRecyclingE_TrashToBricks</defName>
 		<label>Trash to trashbricks</label>
@@ -18,9 +17,7 @@
 				<count>25</count>
 			</li>
 		</results>
-		
 	</PipeSystem.ProcessDef>
-	
 	<PipeSystem.ProcessDef>
 		<defName>VRecyclingE_SplitStabilizedAlloypack</defName>
 		<label>Split stabilized alloypack</label>
@@ -32,24 +29,22 @@
 			</li>
 		</ingredients>
 		<ticks>15000</ticks>
-		
 		<results>
 			<li>
 				<thing>Steel</thing>
 				<count>2</count>
-				<outputCellOffset>(-1,0,1)</outputCellOffset>
+				<outputCellOffset>(1,0,-1)</outputCellOffset>
 			</li>
 			<li>
 				<thing>Plasteel</thing>
 				<count>1</count>
-				<outputCellOffset>(0,0,1)</outputCellOffset>
+				<outputCellOffset>(0,0,-1)</outputCellOffset>
 			</li>
 			<li>
 				<thing>Gold</thing>
 				<count>1</count>
-				<outputCellOffset>(1,0,1)</outputCellOffset>
+				<outputCellOffset>(-1,0,-1)</outputCellOffset>
 			</li>
 		</results>
 	</PipeSystem.ProcessDef>
-	
 </Defs>

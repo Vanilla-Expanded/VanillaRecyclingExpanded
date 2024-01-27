@@ -272,11 +272,12 @@
 			<Flammability>0.5</Flammability>
 		</statBases>
 		<size>(3,2)</size>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<designationCategory>Production</designationCategory>
 		<fillPercent>1</fillPercent>
 		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,2)</interactionCellOffset>
 		<canOverlapZones>false</canOverlapZones>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
@@ -305,6 +306,12 @@
 				<graphicClass>Graphic_Multi</graphicClass>
 				<drawSize>(3,2)</drawSize>
 			</wastepackAtomizerBottomGraphic>
+			<wastepackAtomizerWindowGraphic>
+				<texPath>Things/Building/AlloypackSplitter/AlloypackSplitter_Window</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3,2)</drawSize>
+			</wastepackAtomizerWindowGraphic>
+			
 		</building>
 		<inspectorTabs>
 			<li>PipeSystem.ITab_Processor</li>
