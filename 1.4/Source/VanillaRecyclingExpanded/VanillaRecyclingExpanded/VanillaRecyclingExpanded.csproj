@@ -291,6 +291,7 @@
   <ItemGroup>
     <Compile Include="AI\JobDrivers\JobDriver_HaulToCompactor.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToCompactor.cs" />
+    <Compile Include="Building\Building_WasteCrate.cs" />
     <Compile Include="Building\Building_AlloySplitter.cs" />
     <Compile Include="Building\Building_Compactor.cs" />
     <Compile Include="Comps\CompBiopackDissolution.cs" />

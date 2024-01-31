@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>VRecyclingE_RecyclingWorkbench</defName>
 		<label>recycling bench</label>
-		<description>tbd</description>
+		<description>A workbench for recycling wastepacks into other resources. Works at 50% of the speed of an electric recycling workbench.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/TableRecyclingHand/TableRecyclingHand</texPath>
@@ -74,7 +74,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>VRecyclingE_ElectricRecyclingWorkbench</defName>
 		<label>electric-powered recycling bench</label>
-		<description>tbd</description>
+		<description>A workbench with automated sorters and electric tools, used in recycling wastepacks into other resources. Can work without electricity at 50% of normal speed.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/TableRecyclingElectric/TableRecyclingElectric</texPath>
