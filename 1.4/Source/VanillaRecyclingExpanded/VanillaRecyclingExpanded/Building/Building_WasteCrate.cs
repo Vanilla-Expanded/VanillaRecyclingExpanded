@@ -9,8 +9,8 @@ using System;
 
 namespace VanillaRecyclingExpanded
 {
-     public class Building_WasteCrate : Building
-     {
+     public class Building_WasteCrate : Building_Storage
+    {
        
 
         
