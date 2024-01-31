@@ -160,10 +160,19 @@ namespace VanillaRecyclingExpanded
                 {
                 
                     if ((thing.stackCount + count) > thing.def.stackLimit)
-                        return false;
-                   
-                    thing.stackCount += count;
-                    return true;
+                    {
+                        thing = ThingMaker.MakeThing(thingResult);
+                        thing.stackCount = count;
+                        if (!GenPlace.TryPlaceThing(thing, trueOutputCell, this.parent.Map, ThingPlaceMode.Near))
+                            return false;
+
+                    }
+                    else {
+                        thing.stackCount += count;
+                        return true;
+                    }
+           
+                    
                 }
                 else
                 {
