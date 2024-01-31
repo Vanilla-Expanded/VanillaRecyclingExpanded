@@ -6,6 +6,7 @@
 		<eventNames/>
 		<subSounds>
 			<li>
+			<gameSpeedRange>1~2</gameSpeedRange>
 				<grains>
 					<li Class="AudioGrain_Clip">
 						<clipPath>Compactor</clipPath>
