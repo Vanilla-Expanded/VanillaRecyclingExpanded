@@ -258,7 +258,7 @@ namespace VanillaRecyclingExpanded
             {
                 taggedString += (string)("VRecyclingE_ContainedThings".Translate(Props.thingDef.label) + ": ") + base.TotalStackCount + " / " + Props.stackLimit;
                 taggedString += "\n" + "FinishesIn".Translate() + ": " + "PeriodDays".Translate(((float)TicksLeftUntilAllAtomized / 60000f).ToString("F1"));
-                taggedString += "\n" + "VRecyclingE_DurationUntilNextProcess".Translate() + ": " + (TicksPerAtomize - ticksAtomized).ToStringTicksToPeriod();
+                taggedString += "\n" + "VRecyclingE_DurationUntilNextProcess".Translate(Props.results[0].thingResult, Props.results[0].count) + ": " + (TicksPerAtomize - ticksAtomized).ToStringTicksToPeriod();
                 if (!powerComp.PowerOn)
                 {
                     taggedString += " (" + "Paused".Translate().ToString().UncapitalizeFirst() + ")";
