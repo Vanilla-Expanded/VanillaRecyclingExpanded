@@ -243,7 +243,7 @@
 			<li>VRecyclingE_ComplexRecycling</li>
 		</researchPrerequisites>
 	</ThingDef>
-	<!--	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
 		<description>A spacertech device that separates stabilized alloypacks into steel, plasteel and gold compounds. This process takes a long time and requires a lot of power.</description>
@@ -278,7 +278,7 @@
 		</statBases>
 		<size>(3,2)</size>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>Biotech</designationCategory>
 		<fillPercent>1</fillPercent>
 		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -293,12 +293,31 @@
 				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>VRecyclingE_NotWorking</notWorkingKey>
-				<processes>
-					<li>VRecyclingE_SplitStabilizedAlloypack</li>
-				</processes>
-				<progressBarOffset>(0,0,-1)</progressBarOffset>
+			<li Class="VanillaRecyclingExpanded.CompProperties_SuperSimpleProcessor">
+				<thingDef>VRecyclingE_StabilizedAlloypack</thingDef>
+				<stackLimit>10</stackLimit>
+				<ejectIcon>UI/EjectContentFromAlloypackSplitter</ejectIcon>
+				<drawContainedThing>false</drawContainedThing>
+				<ticksToFinish>15000</ticksToFinish>
+				<contentsDrawOffset>(0.05, 0, 0.2)</contentsDrawOffset>
+				<useEffecter>false</useEffecter>
+				<results>
+					<li>
+						<thingResult>Steel</thingResult>
+						<count>2</count>
+						<outputCellOffset>(1,0,-1)</outputCellOffset>
+					</li>
+					<li>
+						<thingResult>Plasteel</thingResult>
+						<count>1</count>
+						<outputCellOffset>(0,0,-1)</outputCellOffset>
+					</li>
+					<li>
+						<thingResult>Gold</thingResult>
+						<count>1</count>
+						<outputCellOffset>(-1,0,-1)</outputCellOffset>
+					</li>
+				</results>
 			</li>
 		</comps>
 		<building>
@@ -316,15 +335,13 @@
 				<graphicClass>Graphic_Multi</graphicClass>
 				<drawSize>(3,2)</drawSize>
 			</wastepackAtomizerWindowGraphic>
+			 <wastepackAtomizerOperationEffecter>WastepackAtomizer_Operating</wastepackAtomizerOperationEffecter>
 		</building>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>VRecyclingE_ComplexRecycling</li>
 		</researchPrerequisites>
-	</ThingDef>-->
+	</ThingDef>
 </Defs>

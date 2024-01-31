@@ -5,4 +5,9 @@
 		<label>haul resources to trash compactor</label>
 		<giverClass>VanillaRecyclingExpanded.WorkGiver_HaulToCompactor</giverClass>
 	</WorkGiverDef>
+	<WorkGiverDef ParentName="HaulToBase">
+		<defName>VRecyclingE_HaulToAlloySplitter</defName>
+		<label>haul resources to alloy splitter</label>
+		<giverClass>VanillaRecyclingExpanded.WorkGiver_HaulToAlloySplitter</giverClass>
+	</WorkGiverDef>
 </Defs>

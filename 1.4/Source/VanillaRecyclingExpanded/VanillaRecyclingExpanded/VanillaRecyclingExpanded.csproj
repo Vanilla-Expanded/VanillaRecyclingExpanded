@@ -289,7 +289,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI\JobDrivers\JobDriver_HaulToAlloySplitter.cs" />
     <Compile Include="AI\JobDrivers\JobDriver_HaulToCompactor.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_HaulToAlloySplitter.cs" />
     <Compile Include="AI\WorkGivers\WorkGiver_HaulToCompactor.cs" />
     <Compile Include="Building\Building_WasteCrate.cs" />
     <Compile Include="Building\Building_AlloySplitter.cs" />

@@ -9,9 +9,10 @@ using System;
 
 namespace VanillaRecyclingExpanded
 {
-   /* public class Building_AlloySplitter : Building
+    public class Building_AlloySplitter : Building
     {
-        private CompAdvancedResourceProcessor comp;
+        private CompSuperSimpleProcessor comp;
+        private CompPowerTrader powerTrader;
         public int tickCounter =0;
         public const int interval = 600;
         private Effecter operatingEffecter;
@@ -24,21 +25,38 @@ namespace VanillaRecyclingExpanded
 
         }
 
-        public override void SpawnSetup(Map map, bool respawningAfterLoad)
+
+
+        private CompPowerTrader PowerTrader
         {
-            base.SpawnSetup(map, respawningAfterLoad);
-            comp = this.TryGetComp<CompAdvancedResourceProcessor>();
+            get
+            {
+                if (powerTrader == null)
+                {
+                    powerTrader = GetComp<CompPowerTrader>();
+                }
+                return powerTrader;
+            }
         }
 
-
-
+        public CompSuperSimpleProcessor Comp
+        {
+            get
+            {
+                if (comp == null)
+                {
+                    comp = GetComp<CompSuperSimpleProcessor>();
+                }
+                return comp;
+            }
+        }
 
 
         public override void Tick()
         {
             base.Tick();
 
-            if (comp?.Process?.IsRunning == false)
+            if (Comp.Empty || !PowerTrader.PowerOn)
             {
                 operatingEffecter?.Cleanup();
                 operatingEffecter = null;
@@ -46,13 +64,10 @@ namespace VanillaRecyclingExpanded
             }
             if (operatingEffecter == null)
             {
-                operatingEffecter = InternalDefOf.WastepackAtomizer.building.wastepackAtomizerOperationEffecter.Spawn();
-                operatingEffecter.Trigger(this, new TargetInfo(PositionHeld, base.Map));
+                operatingEffecter = def.building.wastepackAtomizerOperationEffecter.Spawn();
+                operatingEffecter.Trigger(this, new TargetInfo(InteractionCell, base.Map));
             }
-
-           
-          
-            operatingEffecter.EffectTick(this, new TargetInfo(this.PositionHeld, base.Map));
+            operatingEffecter.EffectTick(this, new TargetInfo(InteractionCell, base.Map));
         }
 
         public override void Draw()
@@ -72,5 +87,5 @@ namespace VanillaRecyclingExpanded
         }
 
       
-    }*/
+    }
 }
