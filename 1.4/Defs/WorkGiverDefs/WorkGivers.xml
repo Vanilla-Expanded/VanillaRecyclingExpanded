@@ -10,4 +10,22 @@
 		<label>haul resources to alloy splitter</label>
 		<giverClass>VanillaRecyclingExpanded.WorkGiver_HaulToAlloySplitter</giverClass>
 	</WorkGiverDef>
+	<WorkGiverDef>
+		<defName>VRecyclingE_DoBillsRecyclingBench</defName>
+		<label>make things at recycling bench</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Smithing</workType>
+		<priorityInType>220</priorityInType>
+		<fixedBillGiverDefs>
+			<li>VRecyclingE_RecyclingWorkbench</li>
+			<li>VRecyclingE_ElectricRecyclingWorkbench</li>
+		</fixedBillGiverDefs>
+		<verb>work</verb>
+		<gerund>working at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+		<canBeDoneByMechs>true</canBeDoneByMechs>
+	</WorkGiverDef>
 </Defs>
