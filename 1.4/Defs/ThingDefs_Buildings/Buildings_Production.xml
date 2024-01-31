@@ -246,7 +246,7 @@
 	<!--	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
-		<description>A spacertech device that separates stabilized alloypacks into steel, plasteel and gold compounts. This process takes a long time and requires a lot of power.</description>
+		<description>A spacertech device that separates stabilized alloypacks into steel, plasteel and gold compounds. This process takes a long time and requires a lot of power.</description>
 		<thingClass>VanillaRecyclingExpanded.Building_AlloySplitter</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
