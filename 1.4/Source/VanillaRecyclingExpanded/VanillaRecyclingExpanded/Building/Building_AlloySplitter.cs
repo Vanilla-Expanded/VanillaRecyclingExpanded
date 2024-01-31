@@ -56,7 +56,7 @@ namespace VanillaRecyclingExpanded
         {
             base.Tick();
 
-            if (Comp.Empty || !PowerTrader.PowerOn)
+            if (Comp?.Empty == true || !PowerTrader.PowerOn)
             {
                 operatingEffecter?.Cleanup();
                 operatingEffecter = null;
