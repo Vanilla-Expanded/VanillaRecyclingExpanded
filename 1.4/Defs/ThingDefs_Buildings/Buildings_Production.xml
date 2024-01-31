@@ -154,7 +154,7 @@
 	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_GarbageCompactor</defName>
 		<label>garbage compactor</label>
-		<description>tbd</description>
+		<description>An industrial-tech device that condenses trash using hydraulic press into trashbricks. While it does not neutralize the trash completely, it allows for a creation of a construction resource out of it. The process requires considerable amounts of power and emits tox gas during operation.</description>
 		<thingClass>VanillaRecyclingExpanded.Building_Compactor</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
@@ -246,7 +246,7 @@
 	<!--	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
-		<description>tbd</description>
+		<description>A spacertech device that separates stabilized alloypacks into steel, plasteel and gold compounts. This process takes a long time and requires a lot of power.</description>
 		<thingClass>VanillaRecyclingExpanded.Building_AlloySplitter</thingClass>
 		<tickerType>Normal</tickerType>
 		<drawerType>MapMeshAndRealTime</drawerType>
