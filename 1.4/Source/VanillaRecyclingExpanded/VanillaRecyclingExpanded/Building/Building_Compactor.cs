@@ -2,7 +2,6 @@
 using RimWorld;
 using Verse;
 using Verse.Sound;
-using PipeSystem;
 using Verse.Noise;
 using UnityEngine;
 using System;
@@ -11,7 +10,7 @@ namespace VanillaRecyclingExpanded
 {
     public class Building_Compactor : Building
     {
-        private CompAdvancedResourceProcessor comp;
+        private CompSuperSimpleProcessor comp;
         public int tickCounter =0;
         public const int interval = 600;
         public Graphic_Multi graphic = null;
@@ -28,7 +27,7 @@ namespace VanillaRecyclingExpanded
         public override void SpawnSetup(Map map, bool respawningAfterLoad)
         {
             base.SpawnSetup(map, respawningAfterLoad);
-            comp = this.TryGetComp<CompAdvancedResourceProcessor>();
+            comp = this.TryGetComp<CompSuperSimpleProcessor>();
         }
 
         public Graphic_Multi GetGraphic
@@ -60,7 +59,7 @@ namespace VanillaRecyclingExpanded
         {
             base.Tick();
             
-            if (comp?.Process?.IsRunning == true && comp.Process.Progress>0)
+            if (comp!=null&&!comp.Empty)
             {
                 tickCounter++;
                 if (this.IsHashIntervalTick(interval))
@@ -78,7 +77,7 @@ namespace VanillaRecyclingExpanded
             base.Draw();
             var vector = DrawPos;
             vector.y += 6;
-            if (comp?.Process?.IsRunning == true && comp.Process.Progress > 0)
+            if (comp != null && !comp.Empty)
             {
                
                 float height = Mathf.Lerp(0, 0.5f, (float)tickCounter / 600);

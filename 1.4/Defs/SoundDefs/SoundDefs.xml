@@ -19,6 +19,7 @@
 					<min>0</min>
 					<max>50.40025</max>
 				</distRange>
+				<volumeRange>8</volumeRange>
 				<sustainLoop>False</sustainLoop>
 			</li>
 		</subSounds>

@@ -11,8 +11,12 @@ namespace VanillaRecyclingExpanded
     {
         public override void PostDestroy(DestroyMode mode, Map previousMap)
         {
-            GasUtility.AddGas(parent.PositionHeld, previousMap, GasType.RotStink, 10);
-            base.PostDestroy(mode, previousMap);
+            if (parent.PositionHeld != null && previousMap!=null)
+            {
+                GasUtility.AddGas(parent.PositionHeld, previousMap, GasType.RotStink, 10);
+               
+            }
+             base.PostDestroy(mode, previousMap);
         }
     }
 }

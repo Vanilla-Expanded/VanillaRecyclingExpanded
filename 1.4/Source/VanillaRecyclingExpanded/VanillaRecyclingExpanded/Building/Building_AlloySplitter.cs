@@ -2,14 +2,14 @@
 using RimWorld;
 using Verse;
 using Verse.Sound;
-using PipeSystem;
+
 using Verse.Noise;
 using UnityEngine;
 using System;
 
 namespace VanillaRecyclingExpanded
 {
-    public class Building_AlloySplitter : Building
+   /* public class Building_AlloySplitter : Building
     {
         private CompAdvancedResourceProcessor comp;
         public int tickCounter =0;
@@ -72,5 +72,5 @@ namespace VanillaRecyclingExpanded
         }
 
       
-    }
+    }*/
 }

@@ -37,10 +37,6 @@
       <HintPath>..\..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PipeSystem">
-      <HintPath>References\PipeSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
@@ -293,15 +289,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AI\JobDrivers\JobDriver_HaulToCompactor.cs" />
+    <Compile Include="AI\WorkGivers\WorkGiver_HaulToCompactor.cs" />
     <Compile Include="Building\Building_AlloySplitter.cs" />
     <Compile Include="Building\Building_Compactor.cs" />
     <Compile Include="Comps\CompBiopackDissolution.cs" />
     <Compile Include="Comps\CompDissolutionEffect_ChangeTerrain.cs" />
     <Compile Include="Comps\CompRadiationOnDamage.cs" />
+    <Compile Include="Comps\CompSuperSimpleProcessor.cs" />
     <Compile Include="Comps\CompToxGasOnDestroyed.cs" />
     <Compile Include="Comps\Properties\CompProperties_BiopackDissolution.cs" />
     <Compile Include="Comps\Properties\CompProperties_DissolutionEffectChangeTerrain.cs" />
     <Compile Include="Comps\Properties\CompProperties_RadiationOnDamage.cs" />
+    <Compile Include="Comps\Properties\CompProperties_SuperSimpleProcessor.cs" />
     <Compile Include="Comps\Properties\CompProperties_ToxGasOnDestroyed.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\TerrainConversionsDef.cs" />

@@ -14,6 +14,9 @@ namespace VanillaRecyclingExpanded
         public static SoundDef VRecyclingE_MeleeHit_TrashBrick;
 
         public static ThingDef WastepackAtomizer;
+        public static ThingDef VRecyclingE_GarbageCompactor;
+
+        public static JobDef VRecyclingE_HaulToCompactor;
 
         static InternalDefOf()
         {

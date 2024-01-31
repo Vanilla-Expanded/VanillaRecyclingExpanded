@@ -190,7 +190,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<size>(3,2)</size>
-		<designationCategory>Production</designationCategory>
+		<designationCategory>Biotech</designationCategory>
 		<fillPercent>1</fillPercent>
 		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
@@ -214,12 +214,20 @@
 				<compClass>CompHeatPusherPowered</compClass>
 				<heatPerSecond>12</heatPerSecond>
 			</li>
-			<li Class="PipeSystem.CompProperties_AdvancedResourceProcessor">
-				<notWorkingKey>VRecyclingE_NotWorking</notWorkingKey>
-				<processes>
-					<li>VRecyclingE_TrashToBricks</li>
-				</processes>
-				<progressBarOffset>(0,0,-1)</progressBarOffset>
+			<li Class="VanillaRecyclingExpanded.CompProperties_SuperSimpleProcessor">
+				<thingDef>VRecyclingE_Trash</thingDef>
+				<stackLimit>10</stackLimit>
+				<ejectIcon>UI/EjectContentFromGarbageCompactor</ejectIcon>
+				<drawContainedThing>false</drawContainedThing>
+				<ticksToFinish>7500</ticksToFinish>
+				<contentsDrawOffset>(0.05, 0, 0.2)</contentsDrawOffset>
+				<useEffecter>false</useEffecter>
+				<results>
+					<li>
+						<thingResult>VRecyclingE_TrashBrick</thingResult>
+						<count>2</count>
+					</li>
+				</results>
 			</li>
 		</comps>
 		<building>
@@ -228,9 +236,6 @@
 			</buildingTags>
 			<paintable>true</paintable>
 		</building>
-		<inspectorTabs>
-			<li>PipeSystem.ITab_Processor</li>
-		</inspectorTabs>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
@@ -238,7 +243,7 @@
 			<li>VRecyclingE_ComplexRecycling</li>
 		</researchPrerequisites>
 	</ThingDef>
-	<ThingDef ParentName="BuildingBase">
+	<!--	<ThingDef ParentName="BuildingBase">
 		<defName>VRecyclingE_AlloypackSplitter</defName>
 		<label>alloypack splitter</label>
 		<description>tbd</description>
@@ -311,7 +316,6 @@
 				<graphicClass>Graphic_Multi</graphicClass>
 				<drawSize>(3,2)</drawSize>
 			</wastepackAtomizerWindowGraphic>
-			
 		</building>
 		<inspectorTabs>
 			<li>PipeSystem.ITab_Processor</li>
@@ -322,5 +326,5 @@
 		<researchPrerequisites>
 			<li>VRecyclingE_ComplexRecycling</li>
 		</researchPrerequisites>
-	</ThingDef>
+	</ThingDef>-->
 </Defs>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<WorkGiverDef ParentName="HaulToBase">
+		<defName>VRecyclingE_HaulToCompactor</defName>
+		<label>haul resources to trash compactor</label>
+		<giverClass>VanillaRecyclingExpanded.WorkGiver_HaulToCompactor</giverClass>
+	</WorkGiverDef>
+</Defs>

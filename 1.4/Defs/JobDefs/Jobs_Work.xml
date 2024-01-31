@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <JobDef>
+    <defName>VRecyclingE_HaulToCompactor</defName>
+    <driverClass>VanillaRecyclingExpanded.JobDriver_HaulToCompactor</driverClass>
+    <reportString>hauling TargetA.</reportString>
+  </JobDef>
+
+</Defs>
