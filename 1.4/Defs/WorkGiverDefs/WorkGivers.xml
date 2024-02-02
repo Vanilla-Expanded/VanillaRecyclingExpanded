@@ -14,7 +14,7 @@
 		<defName>VRecyclingE_DoBillsRecyclingBench</defName>
 		<label>make things at recycling bench</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
-		<workType>Smithing</workType>
+		<workType>Crafting</workType>
 		<priorityInType>220</priorityInType>
 		<fixedBillGiverDefs>
 			<li>VRecyclingE_RecyclingWorkbench</li>

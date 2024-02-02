@@ -48,10 +48,10 @@
       <statFactors>
         <MarketValue>0.4</MarketValue>
         <Beauty>-4</Beauty>
-        <MaxHitPoints>0.5</MaxHitPoints>
+        <MaxHitPoints>0.7</MaxHitPoints>
         <Flammability>0</Flammability>
-        <WorkToBuild>12.0</WorkToBuild>
-        <WorkToMake>2.0</WorkToMake>
+        <WorkToBuild>10.0</WorkToBuild>
+        <WorkToMake>1.7</WorkToMake>
         <DoorOpenSpeed>0.35</DoorOpenSpeed>
         <BedRestEffectiveness>0.45</BedRestEffectiveness>
         <MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier>

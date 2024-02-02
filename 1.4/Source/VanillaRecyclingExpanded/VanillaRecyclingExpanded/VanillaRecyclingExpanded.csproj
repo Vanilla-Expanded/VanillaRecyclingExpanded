@@ -308,6 +308,8 @@
     <Compile Include="Comps\Properties\CompProperties_ToxGasOnDestroyed.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\TerrainConversionsDef.cs" />
+    <Compile Include="Harmony\BaseGenUtility_RandomCheapWallStuff.cs" />
+    <Compile Include="Harmony\CompDissolution_CanDissolveNow.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\ImpactSoundUtility_PlayImpactSound.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

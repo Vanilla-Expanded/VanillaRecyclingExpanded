@@ -56,6 +56,10 @@ namespace VanillaRecyclingExpanded
         {
             get
             {
+                if (parent.Map != null && parent.Position.GetEdifice(parent.Map)?.def == InternalDefOf.VRecyclingE_WasteCrate)
+                {
+                    return false;
+                }       
                 if (!IsFrozen)
                 {
                     return !InAtomizer;

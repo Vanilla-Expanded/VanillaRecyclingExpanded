@@ -22,7 +22,7 @@
     </statBases>
 	<stackLimit>5</stackLimit>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_GasOnDamage">
@@ -67,7 +67,7 @@
     </statBases>
 	<stackLimit>5</stackLimit>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_GasOnDamage">
@@ -125,7 +125,7 @@
     </statBases>
 	<stackLimit>5</stackLimit>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_GasOnDamage">
@@ -159,7 +159,7 @@
       <DeteriorationRate>8</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_GasOnDamage">
@@ -205,7 +205,7 @@
       <DeteriorationRate>4</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="VanillaRecyclingExpanded.CompProperties_RadiationOnDamage">
@@ -255,7 +255,7 @@
     </statBases>
 	<stackLimit>5</stackLimit>
     <thingCategories>
-      <li>ItemsMisc</li>
+      <li>VRecyclingE_SpecializedPacks</li>
     </thingCategories>
     <comps>
       <li Class="CompProperties_GasOnDamage">
@@ -265,6 +265,9 @@
       </li>
 	  <li Class="VanillaRecyclingExpanded.CompProperties_ToxGasOnDestroyed">
         
+      </li>
+	  <li>
+        <compClass>CompDissolutionEffect_Goodwill</compClass>
       </li>
     </comps>
     <tickerType>Normal</tickerType>
