@@ -26,9 +26,9 @@ namespace VanillaRecyclingExpanded
              base.Draw();
 
              
-             Vector3 drawPos2 = DrawPos;
-             drawPos2.y -= 3f / 148f;
-             def.building.wastepackAtomizerWindowGraphic.Graphic.Draw(drawPos2, base.Rotation, this);
+             Vector3 drawPos = DrawPos;
+            drawPos.y += 6;
+            def.building.wastepackAtomizerWindowGraphic.Graphic.DrawFromDef(drawPos, base.Rotation,null);
 
 
 

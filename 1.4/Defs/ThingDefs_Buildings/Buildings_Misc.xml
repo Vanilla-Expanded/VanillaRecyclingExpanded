@@ -128,7 +128,7 @@
 		<label>waste crate</label>
 		<description>A hermetically sealed container that prevents toxic waste stored inside from dissolving and leaking into the environment. Can only hold a limited amount of waste. Does nothing to prevent the waste from burning.</description>
 		<thingClass>VanillaRecyclingExpanded.Building_WasteCrate</thingClass>
-		
+	
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<graphicData>
 			<texPath>Things/Building/WasteCrate/WasteCrate_Bottom</texPath>
@@ -162,6 +162,7 @@
 			<wastepackAtomizerWindowGraphic>
 				<texPath>Things/Building/WasteCrate/WasteCrate_Top</texPath>
 				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>Transparent</shaderType>
 				<drawSize>(2,2)</drawSize>
 			</wastepackAtomizerWindowGraphic>
 			<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
