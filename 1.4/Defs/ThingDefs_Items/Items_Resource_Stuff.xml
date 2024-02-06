@@ -13,6 +13,8 @@
     <soundDrop>Stone_Drop</soundDrop>
     <useHitPoints>true</useHitPoints>
     <tradeability>None</tradeability>
+	<generateCommonality>0</generateCommonality>
+	<generateAllowChance>0</generateAllowChance>
 	<stackLimit>25</stackLimit>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
@@ -39,7 +41,7 @@
         <li>Stony</li>
       </categories>
 	  
-      <commonality>0</commonality>
+      <commonality>0.0001</commonality>
       <appearance>Bricks</appearance>
       <statOffsets>
         <WorkToBuild>140</WorkToBuild>
@@ -56,7 +58,7 @@
         <BedRestEffectiveness>0.45</BedRestEffectiveness>
         <MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier>
       </statFactors>
-      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+      <canSuggestUseDefaultStuff>false</canSuggestUseDefaultStuff>
     </stuffProps>
     <comps>
       <li Class="CompProperties_GasOnDamage">

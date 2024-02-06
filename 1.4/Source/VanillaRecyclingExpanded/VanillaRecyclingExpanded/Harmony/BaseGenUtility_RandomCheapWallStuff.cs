@@ -10,12 +10,12 @@ namespace VanillaRecyclingExpanded
 {
 
 
-    [HarmonyPatch(typeof(BaseGenUtility))]
-    [HarmonyPatch("RandomCheapWallStuff")]
-    [HarmonyPatch(new Type[] { typeof(TechLevel), typeof(bool) })]
+    [HarmonyPatch(typeof(GenStuff))]
+    [HarmonyPatch("RandomStuffInexpensiveFor")]
+    [HarmonyPatch(new Type[] { typeof(ThingDef), typeof(TechLevel), typeof(Predicate<ThingDef>) })]
+   
 
-
-    public static class VanillaRecyclingExpanded_BaseGenUtility_RandomCheapWallStuff_Patch
+    public static class VanillaRecyclingExpanded_GenStuff_RandomStuffInexpensiveFor_Patch
     {
         [HarmonyPostfix]
         public static void RemoveMaterial(ref ThingDef __result)
