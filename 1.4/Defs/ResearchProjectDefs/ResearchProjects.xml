@@ -8,9 +8,7 @@
       <baseCost>500</baseCost>
       <tab>VanillaExpanded</tab>
       <techLevel>Industrial</techLevel>
-      <prerequisites>
-         <li>ToxifierGenerator</li>
-      </prerequisites>
+    
 		<researchViewY>7</researchViewY>
 		<researchViewX>5</researchViewX>
    </ResearchProjectDef>
