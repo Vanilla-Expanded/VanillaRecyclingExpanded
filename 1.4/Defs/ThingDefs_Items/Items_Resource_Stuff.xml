@@ -3,7 +3,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>VRecyclingE_TrashBrick</defName>
 		<label>trashbrick</label>
-		<description>A stack of solid bricks, created by compressing non-toxic trash into a brick form. The surface is heat-sealed for safe transport. Trashbricks are a durable building material for constructing walls and floors. If damaged or burned, they will release a moderate amount of toxic fumes and pollute the area. Trashbricks do not deteriorate.</description>
+		<description>A stack of solid bricks, created by compressing non-toxic trash into a brick form. The surface is heat-sealed for safe transport. Trashbricks are a durable building material for constructing walls and structures. If damaged or burned, they will release a moderate amount of toxic fumes and pollute the area. Trashbricks do not deteriorate.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Trashbrick</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
