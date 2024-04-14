@@ -57,6 +57,7 @@
 				<MeleeWeapon_CooldownMultiplier>1.30</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 			<canSuggestUseDefaultStuff>false</canSuggestUseDefaultStuff>
+			<allowedInStuffGeneration>false</allowedInStuffGeneration>
 		</stuffProps>
 		<comps>
 			<li Class="CompProperties_GasOnDamage">

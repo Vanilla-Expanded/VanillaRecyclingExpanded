@@ -19,6 +19,8 @@ namespace VanillaRecyclingExpanded
         public static ThingDef VRecyclingE_WasteCrate;
         public static ThingDef VRecyclingE_TrashBrick;
 
+        public static TerrainDef VRecyclingE_TrashBrickFloor;
+
         public static JobDef VRecyclingE_HaulToCompactor;
         public static JobDef VRecyclingE_HaulToAlloySplitter;
 
