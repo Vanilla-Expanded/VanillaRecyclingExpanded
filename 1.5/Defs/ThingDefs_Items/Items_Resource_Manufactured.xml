@@ -266,6 +266,11 @@
 	  <li Class="VanillaRecyclingExpanded.CompProperties_ToxGasOnDestroyed">
         
       </li>
+	   <li Class="CompProperties_Dissolution">
+        <dissolutionAfterDays>1200</dissolutionAfterDays>
+        <dissolutinFactorIndoors>1</dissolutinFactorIndoors>
+        <dissolutionFactorRain>1</dissolutionFactorRain>
+      </li>
 	  <li>
         <compClass>CompDissolutionEffect_Goodwill</compClass>
       </li>
