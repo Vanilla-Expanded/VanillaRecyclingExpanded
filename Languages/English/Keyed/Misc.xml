@@ -7,6 +7,7 @@
 	<VRecyclingE_Leaking>This reactive isotopack is leaking radiation</VRecyclingE_Leaking>
 	<VRecyclingE_DurationUntilNextProcess>Time until {1} {0_labelPlural} are ready</VRecyclingE_DurationUntilNextProcess>
 	<VRecyclingE_ContainedThings>Contained {0}</VRecyclingE_ContainedThings>
+	<VRecyclingE_DissolutionWasteCrate>Protected (won't dissolve).</VRecyclingE_DissolutionWasteCrate>
 
 
 
