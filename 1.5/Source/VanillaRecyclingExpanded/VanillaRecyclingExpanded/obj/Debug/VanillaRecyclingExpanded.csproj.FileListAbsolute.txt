@@ -10,3 +10,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpa
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.csproj.AssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Assemblies\VanillaRecyclingExpanded.dll
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\VanillaRecyclingExpanded\1.5\Source\VanillaRecyclingExpanded\VanillaRecyclingExpanded\obj\Debug\VanillaRecyclingExpanded.dll
