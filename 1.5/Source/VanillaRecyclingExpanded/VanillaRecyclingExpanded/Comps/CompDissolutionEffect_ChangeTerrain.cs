@@ -15,6 +15,8 @@ namespace VanillaRecyclingExpanded
 
         public override void DoDissolutionEffectMap(int amount)
         {
+            Map mapHeld = parent.MapHeld;
+            IntVec3 positionHeld = parent.PositionHeld;
 
             if (amount >= 5)
             {
@@ -25,7 +27,7 @@ namespace VanillaRecyclingExpanded
                     terrainequivalences.AddRange(individualList.terrainConversions);
                 }
 
-                TerrainDef terrain = this.parent.Position.GetTerrain(this.parent.Map);
+                TerrainDef terrain = positionHeld.GetTerrain(mapHeld);
 
                 if (terrainequivalences.Count > 0)
                 {
@@ -33,7 +35,7 @@ namespace VanillaRecyclingExpanded
                     {
                         if (terrainequivalence.terrainToConvert==terrain.defName)
                         {
-                            this.parent.Map.terrainGrid.SetTerrain(this.parent.Position, TerrainDef.Named(terrainequivalence.terrainToConvertTo));
+                            mapHeld.terrainGrid.SetTerrain(positionHeld, TerrainDef.Named(terrainequivalence.terrainToConvertTo));
 
                         }
                     }
@@ -41,7 +43,7 @@ namespace VanillaRecyclingExpanded
             }
             float num = parent.HitPoints * 4 * amount;
             
-            GasUtility.AddGas(parent.PositionHeld, parent.MapHeld, GasType.RotStink, (int)num);
+            GasUtility.AddGas(positionHeld, mapHeld, GasType.RotStink, (int)num);
         }
 
         public override void DoDissolutionEffectWorld(int amount, int tileId)
