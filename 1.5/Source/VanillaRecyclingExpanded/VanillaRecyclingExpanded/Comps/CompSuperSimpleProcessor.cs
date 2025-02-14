@@ -36,6 +36,8 @@ namespace VanillaRecyclingExpanded
         public float FillPercent => (float)base.TotalStackCount / (float)Props.stackLimit;
         private Graphic contentsGraphic;
 
+        public bool Working => !Empty && (powerComp == null || powerComp.PowerOn);
+
         public override void PostSpawnSetup(bool respawningAfterLoad)
         {
             if (!ModLister.CheckBiotech("Atomizer"))
@@ -230,7 +232,7 @@ namespace VanillaRecyclingExpanded
         public override void CompTick()
         {
             base.CompTick();
-            if (!base.Empty && powerComp.PowerOn)
+            if (Working)
             {
                 ticksAtomized++;
                 if (ticksAtomized >= TicksPerAtomize)
@@ -268,7 +270,7 @@ namespace VanillaRecyclingExpanded
                 taggedString += (string)("VRecyclingE_ContainedThings".Translate(Props.thingDef.label) + ": ") + base.TotalStackCount + " / " + Props.stackLimit;
                 taggedString += "\n" + "FinishesIn".Translate() + ": " + "PeriodDays".Translate(((float)TicksLeftUntilAllAtomized / 60000f).ToString("F1"));
                 taggedString += "\n" + "VRecyclingE_DurationUntilNextProcess".Translate(Props.results[0].thingResult, Props.results[0].count) + ": " + (TicksPerAtomize - ticksAtomized).ToStringTicksToPeriod();
-                if (!powerComp.PowerOn)
+                if (powerComp != null && !powerComp.PowerOn)
                 {
                     taggedString += " (" + "Paused".Translate().ToString().UncapitalizeFirst() + ")";
                 }

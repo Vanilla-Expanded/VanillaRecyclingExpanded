@@ -12,7 +12,6 @@ namespace VanillaRecyclingExpanded
     public class Building_AlloySplitter : Building
     {
         private CompSuperSimpleProcessor comp;
-        private CompPowerTrader powerTrader;
         public int tickCounter =0;
         public const int interval = 600;
         private Effecter operatingEffecter;
@@ -26,18 +25,6 @@ namespace VanillaRecyclingExpanded
         }
 
 
-
-        private CompPowerTrader PowerTrader
-        {
-            get
-            {
-                if (powerTrader == null)
-                {
-                    powerTrader = GetComp<CompPowerTrader>();
-                }
-                return powerTrader;
-            }
-        }
 
         public CompSuperSimpleProcessor Comp
         {
@@ -56,7 +43,7 @@ namespace VanillaRecyclingExpanded
         {
             base.Tick();
 
-            if (Comp?.Empty == true || !PowerTrader.PowerOn)
+            if (Comp?.Working != true)
             {
                 operatingEffecter?.Cleanup();
                 operatingEffecter = null;
