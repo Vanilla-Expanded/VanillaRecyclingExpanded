@@ -59,7 +59,7 @@ namespace VanillaRecyclingExpanded
         {
             base.Tick();
             
-            if (comp!=null&&!comp.Empty)
+            if (comp!=null&&comp.Working)
             {
                 tickCounter++;
                 if (this.IsHashIntervalTick(interval))
@@ -78,7 +78,7 @@ namespace VanillaRecyclingExpanded
             base.DrawAt(drawLoc, flip);
             var vector = DrawPos;
             vector.y += 6;
-            if (comp != null && !comp.Empty)
+            if (comp != null && comp.Working)
             {
                
                 float height = Mathf.Lerp(0, 0.5f, (float)tickCounter / 600);
