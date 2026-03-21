@@ -313,6 +313,7 @@
     <Compile Include="Harmony\CompDissolution_CanDissolveNow.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Harmony\ImpactSoundUtility_PlayImpactSound.cs" />
+    <Compile Include="PlaceWorkers\PlaceWorker_AlloySplitter.cs" />
     <Compile Include="PlaceWorkers\PlaceWorker_WasteCrate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

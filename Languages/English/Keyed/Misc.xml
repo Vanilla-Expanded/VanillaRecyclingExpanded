@@ -8,7 +8,8 @@
 	<VRecyclingE_DurationUntilNextProcess>Time until {1} {0_labelPlural} are ready</VRecyclingE_DurationUntilNextProcess>
 	<VRecyclingE_ContainedThings>Contained {0}</VRecyclingE_ContainedThings>
 	<VRecyclingE_DissolutionWasteCrate>Protected (won't dissolve).</VRecyclingE_DissolutionWasteCrate>
-
+	<VRecyclingE_AlloySplitterOutputBlocked>Output slots of the alloy splitter would be blocked</VRecyclingE_AlloySplitterOutputBlocked>
+	<VRecyclingE_AlloySplitterOutOfBounds>Output slots of the alloy splitter would be out of map bounds</VRecyclingE_AlloySplitterOutOfBounds>
 
 
 </LanguageData>

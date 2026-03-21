@@ -339,6 +339,7 @@
 		</building>
 		<placeWorkers>
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+			<li>VanillaRecyclingExpanded.PlaceWorker_AlloySplitter</li>
 		</placeWorkers>
 		<researchPrerequisites>
 			<li>VRecyclingE_ComplexRecycling</li>
