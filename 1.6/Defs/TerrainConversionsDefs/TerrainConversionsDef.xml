@@ -13,6 +13,22 @@
 				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
 			</li>
 			<li>
+				<terrainToConvert>MarshyTerrain</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
+			<li>
+				<terrainToConvert>MossyTerrain</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
+			<li>
+				<terrainToConvert>GrasslandSoil</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
+			<li>
+				<terrainToConvert>GlowforestSoil</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
+			<li>
 				<terrainToConvert>AB_CrackedMud</terrainToConvert>
 				<terrainToConvertTo>AB_RichCrackedMud</terrainToConvertTo>				
 			</li>
