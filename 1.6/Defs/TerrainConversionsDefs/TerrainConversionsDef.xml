@@ -48,6 +48,18 @@
 				<terrainToConvert>GU_AlienSand</terrainToConvert>
 				<terrainToConvertTo>GU_RichAlienSand</terrainToConvertTo>				
 			</li>
+			<li>
+				<terrainToConvert>VEE_AnimaSoil</terrainToConvert>
+				<terrainToConvertTo>VEE_AnimaSoilRich</terrainToConvertTo>				
+			</li>
+			<li>
+				<terrainToConvert>VEE_MossySoil</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
+			<li>
+				<terrainToConvert>VEE_LittoralDuneSand</terrainToConvert>
+				<terrainToConvertTo>SoilRich</terrainToConvertTo>				
+			</li>
 						
 		</terrainConversions>							
 	</VanillaRecyclingExpanded.TerrainConversionsDef>
