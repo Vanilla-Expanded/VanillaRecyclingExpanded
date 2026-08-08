@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_HaulToCompactor.label>Transporter les ressources jusqu'au compacteur à déchets</VRecyclingE_HaulToCompactor.label>
+
+  <VRecyclingE_HaulToAlloySplitter.label>Transporter les ressources jusqu'au séparateur d'alliage</VRecyclingE_HaulToAlloySplitter.label>
+
+  <VRecyclingE_DoBillsRecyclingBench.label>Fabriquer des objets à l'établi de recyclage</VRecyclingE_DoBillsRecyclingBench.label>
+</LanguageData>

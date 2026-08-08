@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_LargePollutionPump.label>grande pompe de dépollution</VRecyclingE_LargePollutionPump.label>
+  <VRecyclingE_LargePollutionPump.description>Une grande pompe de filtration des eaux souterraines qui nettoie lentement de vastes étendues de terrain pollué. La pollution extraite est conditionnée en déchets toxiques qu'il faut évacuer.</VRecyclingE_LargePollutionPump.description>
+
+  <VRecyclingE_PollutionFastPump.label>pompe rapide de dépollution</VRecyclingE_PollutionFastPump.label>
+  <VRecyclingE_PollutionFastPump.description>Une pompe à action rapide qui filtre les eaux souterraines pour assainir les sols pollués. La pollution extraite est conditionnée en déchets toxiques qu'il faut évacuer. Son fonctionnement nécessite une grande quantité d'électricité, mais elle est extrêmement rapide.</VRecyclingE_PollutionFastPump.description>
+
+  <VRecyclingE_WasteCrate.label>Caisse à déchets</VRecyclingE_WasteCrate.label>
+  <VRecyclingE_WasteCrate.description>Un conteneur hermétique qui empêche les déchets toxiques qu'il renferme de se dissoudre et de s'échapper dans l'environnement. Il ne peut contenir qu'une quantité limitée de déchets. Il n'empêche pas les déchets de brûler.</VRecyclingE_WasteCrate.description>
+</LanguageData>

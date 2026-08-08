@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_Recycle_WastepackIntoChempack.label>Recycler les déchets en Chempacks réactifs.</VRecyclingE_Recycle_WastepackIntoChempack.label>
+  <VRecyclingE_Recycle_WastepackIntoChempack.description>Utilisez le travail manuel pour recycler des sacs de déchets toxiques en chempacks réactifs, générant ainsi des sacs biologiques récupérés comme sous-produit.</VRecyclingE_Recycle_WastepackIntoChempack.description>
+  <VRecyclingE_Recycle_WastepackIntoChempack.jobString>Recyclage de déchets en chempacks réactifs.</VRecyclingE_Recycle_WastepackIntoChempack.jobString>
+
+  <VRecyclingE_Recycle_ChempackIntoChemfuel.label>Recycler les Chempacks réactifs en Chemfuel</VRecyclingE_Recycle_ChempackIntoChemfuel.label>
+  <VRecyclingE_Recycle_ChempackIntoChemfuel.description>Utilisez le travail manuel pour séparer le chemfuel utilisable des déchets contenus dans les chempacks réactifs.</VRecyclingE_Recycle_ChempackIntoChemfuel.description>
+  <VRecyclingE_Recycle_ChempackIntoChemfuel.jobString>Recyclage des chempacks réactifs en chemfuel.</VRecyclingE_Recycle_ChempackIntoChemfuel.jobString>
+
+  <VRecyclingE_Recycle_WastepackIntoToxpack.label>Recycler les déchets en Toxpacks volatil</VRecyclingE_Recycle_WastepackIntoToxpack.label>
+  <VRecyclingE_Recycle_WastepackIntoToxpack.description>Utilisez le travail manuel pour recycler des déchets toxiques en toxpacks volatil, générant des déchets comme sous-produit.</VRecyclingE_Recycle_WastepackIntoToxpack.description>
+  <VRecyclingE_Recycle_WastepackIntoToxpack.jobString>Recyclage des déchets en toxpacks volatil.</VRecyclingE_Recycle_WastepackIntoToxpack.jobString>
+
+  <VRecyclingE_Recycle_BreakDownToxpack.label>Recycler les Toxpacks volatil en Isotopacks et Alloypacks</VRecyclingE_Recycle_BreakDownToxpack.label>
+  <VRecyclingE_Recycle_BreakDownToxpack.description>Utilisez le travail manuel pour recycler des toxpacks volatil en alloypacks stabilisés et en isotopcaks radioactifs.</VRecyclingE_Recycle_BreakDownToxpack.description>
+  <VRecyclingE_Recycle_BreakDownToxpack.jobString>Recyclage des toxpacks volatil en isotopacks et alloypacks.</VRecyclingE_Recycle_BreakDownToxpack.jobString>
+
+  <VRecyclingE_Recycle_IsotopackIntoUranium.label>Recycler les isotopacks radioactifs en uranium</VRecyclingE_Recycle_IsotopackIntoUranium.label>
+  <VRecyclingE_Recycle_IsotopackIntoUranium.description>Utilisez le travail manuel pour séparer l'uranium exploitable des déchets contenus dans les isotopacks radioactifs.</VRecyclingE_Recycle_IsotopackIntoUranium.description>
+  <VRecyclingE_Recycle_IsotopackIntoUranium.jobString>Recyclage des isotopacks radioactifs en uranium.</VRecyclingE_Recycle_IsotopackIntoUranium.jobString>
+</LanguageData>

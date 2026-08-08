@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_TrashToBricks.label>Transformer des déchets en briques</VRecyclingE_TrashToBricks.label>
+  <VRecyclingE_TrashToBricks.description>Transforme 10 déchets en 25 briques de déchets.</VRecyclingE_TrashToBricks.description>
+  
+  <VRecyclingE_SplitStabilizedAlloypack.label>Séparer un alloypack stabilisé</VRecyclingE_SplitStabilizedAlloypack.label>
+  <VRecyclingE_SplitStabilizedAlloypack.description>Transforme 1 alloypack stabilisé en 1 plastacier, 1 or et 2 aciers.</VRecyclingE_SplitStabilizedAlloypack.description>
+</LanguageData>

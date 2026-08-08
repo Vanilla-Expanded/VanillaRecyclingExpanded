@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_RecyclingWorkbench.label>Établi de recyclage</VRecyclingE_RecyclingWorkbench.label>
+  <VRecyclingE_RecyclingWorkbench.description>Un établi pour recycler des déchets en d'autres ressources. Fonctionne à 50 % de la vitesse d'un établi de recyclage électrique.</VRecyclingE_RecyclingWorkbench.description>
+
+  <VRecyclingE_ElectricRecyclingWorkbench.label>Établi de recyclage électrique</VRecyclingE_ElectricRecyclingWorkbench.label>
+  <VRecyclingE_ElectricRecyclingWorkbench.description>Un établi équipé de trieurs automatisés et d'outils électriques, utilisé pour transformer des déchets en d'autres ressources. Il peut fonctionner sans électricité à 50 % de sa vitesse normale.</VRecyclingE_ElectricRecyclingWorkbench.description>
+
+  <VRecyclingE_GarbageCompactor.label>Compacteur de déchets</VRecyclingE_GarbageCompactor.label>
+  <VRecyclingE_GarbageCompactor.description>Un dispositif technologique industriel qui compacte les déchets à l'aide d'une presse hydraulique pour en faire des blocs de déchets. Bien qu'il ne neutralise pas totalement les déchets, il permet de les transformer en une ressource de construction. Le processus nécessite une quantité considérable d'énergie et dégage des gaz toxiques lors de son fonctionnement.</VRecyclingE_GarbageCompactor.description>
+
+  <VRecyclingE_AlloypackSplitter.label>Séparateur d'alliage stabilisés</VRecyclingE_AlloypackSplitter.label>
+  <VRecyclingE_AlloypackSplitter.description>Un dispositif technologique de séparation qui décompose les alloypacks stabilisés en acier, plastacier et composés d'or. Ce processus est long et très énergivore. \n\nN'oubliez pas que la machine nécessite un espace libre à l'arrière pour produire !</VRecyclingE_AlloypackSplitter.description>
+</LanguageData>

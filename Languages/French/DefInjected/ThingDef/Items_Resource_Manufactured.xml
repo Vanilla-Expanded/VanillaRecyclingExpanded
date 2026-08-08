@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_ReclaimedBiopack.label>biopacks récupérés</VRecyclingE_ReclaimedBiopack.label>
+  <VRecyclingE_ReclaimedBiopack.description>Un emballage réutilisé composé de biomatériaux riches en nutriments, récupérés à partir de déchets toxiques grâce à des procédés de recyclage avancés. Sa surface est thermoscellée pour garantir un transport en toute sécurité. Ces biopacks récupérés améliorent la fertilité du sol si une pile de cinq unités se décompose sur un sol ordinaire. S'ils sont endommagés ou brûlés, ils dégagent une légère odeur de pourriture nauséabonde.</VRecyclingE_ReclaimedBiopack.description>
+
+  <VRecyclingE_ReactiveChempack.label>chempack réactif</VRecyclingE_ReactiveChempack.label>
+  <VRecyclingE_ReactiveChempack.description>Un ensemble instable de produits chimiques hautement réactifs, généré comme sous-produit du recyclage de déchets toxiques. La surface est thermoscellée pour garantir un transport en toute sécurité. Ces packs de produits réactifs sont extrêmement dangereux et peuvent provoquer des explosions dévastatrices s'ils ne sont pas manipulés avec précaution. S'ils sont endommagés ou brûlés, ils risquent d'exploser en une immense boule de feu.</VRecyclingE_ReactiveChempack.description>
+
+  <VRecyclingE_StabilizedAlloypack.label>alloypack stabilisé</VRecyclingE_StabilizedAlloypack.label>
+  <VRecyclingE_StabilizedAlloypack.description>Un amalgame d'alliages à la fois résistants et légers, synthétisé à partir de déchets toxiques via des réactions chimiques complexes. Leur surface est scellée à chaud pour garantir un transport en toute sécurité. Ces blocs d'alliage stabilisés contiennent des matériaux de haute qualité destinés à la fabrication d'armes, d'armures et de composants de pointe. S'ils sont endommagés ou brûlés, ils libèrent une légère bouffée de fumée non toxique.</VRecyclingE_StabilizedAlloypack.description>
+
+  <VRecyclingE_VolatileToxpack.label>toxpack volatil</VRecyclingE_VolatileToxpack.label>
+  <VRecyclingE_VolatileToxpack.description>Un conteneur instable de déchets toxiques hautement concentrés, généré comme sous-produit de projets de recyclage plus complexes. Sa surface est thermoscellée pour garantir un transport en toute sécurité. Ces conteneurs de substances toxiques volatiles sont extrêmement dangereux en raison de leur instabilité et de leur propension à dégager d'importantes quantités de gaz toxiques et de polluants. S'ils sont brûlés ou endommagés, ils libèrent un immense nuage de gaz toxique mortel.</VRecyclingE_VolatileToxpack.description>
+
+  <VRecyclingE_RadioactiveIsotopack.label>isotopack radioactif</VRecyclingE_RadioactiveIsotopack.label>
+  <VRecyclingE_RadioactiveIsotopack.description>Un colis dangereux d'isotopes radioactifs, issu du recyclage de déchets toxiques. Sa surface est thermoscellée pour garantir un transport en toute sécurité. Ces colis émettent un niveau élevé de radiations, représentant une menace sérieuse pour la santé des colons et des animaux. S'ils sont endommagés ou brûlés, ils libèrent une bouffée de radiations dangereuses.</VRecyclingE_RadioactiveIsotopack.description>
+
+  <VRecyclingE_Trash.label>déchet</VRecyclingE_Trash.label>
+  <VRecyclingE_Trash.description>Un paquet de déchets non toxiques, soigneusement triés et compactés pour un stockage efficace. La surface est thermoscellée afin de garantir un transport en toute sécurité. Ces déchets ne présentent aucun risque de pollution ou de dégradation, ce qui permet un stockage à long terme sans danger. Toutefois, s'ils sont brûlés, ils dégagent une quantité modérée de gaz toxiques en tant que sous-produit de la combustion.</VRecyclingE_Trash.description>
+</LanguageData>

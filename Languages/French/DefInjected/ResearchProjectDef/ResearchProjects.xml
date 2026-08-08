@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <VRecyclingE_BasicRecycling.label>recyclage basique</VRecyclingE_BasicRecycling.label>
+  <VRecyclingE_BasicRecycling.description>Découvrez le recyclage basique, qui vous permet de transformer des lots de déchets en diverses ressources.</VRecyclingE_BasicRecycling.description>
+
+  <VRecyclingE_ComplexRecycling.label>recyclage complexe</VRecyclingE_ComplexRecycling.label>
+  <VRecyclingE_ComplexRecycling.description>Apprenez à recycler les isotopacks et les alloypacks en nouvelles ressources et construisez des compacteurs de déchets pour fabriquer des blocs de déchets.</VRecyclingE_ComplexRecycling.description>
+</LanguageData>
